@@ -1,7 +1,23 @@
-.App {
-  text-align: center;
+.para{
+  color: red;
+ 
+}
+.from{
+  width: 50%;
+  margin: 100px;
+}
+.parent-div{
+  background-color: rgb(134, 137, 137) !important;
+}
+.navbar{
+  background-color: rgb(134, 137, 137) !important;
+  font-weight: 700 !important;
+  font-size: large;
 }
 
+.btn-ui-class {
+  background-color: #61dafb !important;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
