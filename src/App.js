@@ -15,7 +15,6 @@ function App() {
             <Link to='/' className='navbar item'>
               Login
             </Link>
-
             <Link to='/home' className=' navbar item '>
               Home
             </Link>
@@ -25,9 +24,9 @@ function App() {
             <Link to='/products' className=' navbar item'>
               Product
             </Link>
-            <div class="right menu">
-              <div class=" item">
-                <div class="ui icon input">
+            <div className="right menu">
+              <div className="item">
+                <div className="ui icon input">
                   <Input type="text" placeholder="Search..." />
                   <i class="search link icon"></i>
                 </div>
