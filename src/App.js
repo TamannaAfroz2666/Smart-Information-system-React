@@ -12,7 +12,7 @@ function App() {
     <Router>
       <div className="App">
         <div className=''>
-          <div class="ui secondary menu parent-div">
+          <div className="ui secondary menu parent-div">
             <Link to='/' className='navbar item'>
               Login
             </Link>
@@ -29,7 +29,7 @@ function App() {
               <div className="item">
                 <div className="ui icon input">
                   <Input type="text" placeholder="Search..." />
-                  <i class="search link icon"></i>
+                  <i className="search link icon"></i>
                 </div>
               </div>
               <Link to='/logout' className=' navbar item'>
