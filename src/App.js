@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import { Input } from 'semantic-ui-react'
 import HomePage from './components/HomePage';
+import Login from './components/Authentification/Login';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
           </div>
         </div>
         <Route path={'/home'} component={HomePage} exact />
+        <Route path={'/'} component={Login} exact/>
       </div>
     </Router>
   );
